@@ -1,0 +1,78 @@
+Du benötigst hierzu einen Texteditor sowie Dein Installationsverzeichnis von XAMPP.
+
+Vorab stelle sicher, dass der Apache NICHT läuft (also deaktiviert ist).
+
+SCHRITT 1:
+Aus strategischer Sicht empfehle ich Dir je Projekt einen anderen Port zu nehmen (unabhängig von Port 80). Ich weise schon darauf hin, dass dies Geschmackssache ist. Diesen kannst Du eigentlich fast frei definieren; ich starte grundsätzlich mit Port 10000 und zähle dann je Projekt einfach hoch. Achte drauf, dass Du nicht mit verwendeten Ports kollidierst!
+
+- gehe ins Verzeichnis [Laufwerk]:/xampp/apache/conf
+- öffne die Datei "httpd.conf" mit einem Texteditor
+- suche darin nach "#Listen 12.34.56.78:80" (ohne "); alternativ "#Listen" (je nach XAMPP-Version)
+- ergänze darunter "Listen 10000" (= lausche auf Port 10000) in einer eigenen Zeile
+- speichern und schließen
+
+
+SCHRITT 2:
+Anpassen des virtuellen Hosts, der auf dem Port bedient wird. Salopp formuliert: Hier gibst Du an, wohin die Reise auf der Festplatte geht, wenn dieser Port angesprochen wird (und noch etwas mehr).
+
+- gehe in das Verzeichnis [Laufwerk]:/xampp/apache/conf/extra
+- öffne die Datei "httpd-vhosts.conf" mit dem Texteditor
+- springe an das Ende der Datei und erweitere hiermit:
+
+
+<VirtualHost *:10000>
+    ServerAdmin DEINEEMAILADRESSE@EXAMPLE.COM
+    DocumentRoot "[LAUFWERK]:/xampp/htdocs/PROJEKTNAME_BZW_VERZEICHNISNAME"
+    ServerName 127.0.0.1
+    ServerAlias localhost
+    ErrorLog "logs/PROJEKTNAME_error.log"
+    CustomLog "logs/PROJEKTNAME_access.log" combined
+</VirtualHost>
+- Begriffe in Großbuchstaben oben bitte anpassen!!
+- speichern und schließen
+
+
+SCHRITT 3:
+Starten von Apache. Hier wirst Du sehen können, dass der Port 10000 auf dem Control-Panel von XAMPP nun auftaucht. Gibt es keine Kollision mit einem anderen Programm, was diesen Port nutzt, wird Apache "grün".
+
+Sollte es eine Kollision geben, probiere einen anderen Port (beide Dateien nochmals anpassen).
+
+
+SCHRITT 4: Aufruf im Browser
+- Browser öffnen
+- URL: localhost:10000
+
+Das war's.
+
+
+Weitere Projekte anlegen:
+- Apache stoppen
+- obige Dateien im Texteditor öffnen
+- Listen erweitern
+- virtual host ergänzen
+- Apache wieder starten
+
+Diese legst Du wie oben beschrieben identisch an; einzige Ausnahme: der Port. Projekt A hat 10000, Projekt B bekommt 10001, Projekt C nun 10002 usw. Die kommen sich absolut nicht in die Quere und Port 80 bzw. 8080 stehen für neugierige Anfragen von außen weiterhin zur Verfügung.
+
+
+SONSTIGES:
+
+Hinweis zum Error-Log je virtuellem Host:
+Spuckt eines Deiner Projekte Fehler aus, kannst Du das je Projekt entsprechend auswerten - daher die Splittung mit eigenem Namen etc. Alle diese Log-Dateien entstehen unter ROOT/apache/logs.
+
+Aufruf im eigenen Netzwerk:
+(u. U. meldet sich eine Firewall bzw. muss diese vorher angepasst werden)
+http://[interne IP-Adresse des Rechners mit XAMPP]:10000
+(ermittelbar via Kommandozeile: ipconfig /all)
+
+Aufruf von außen:
+(u. U. meldet sich eine Firewall bzw. muss diese vorher angepasst werden)
+http://[externe IP des Rechners mit XAMPP]:10000
+(ermittelbar via einschlägiger Websites oder Besuch in einer Router-Config)
+
+Projekt deaktivieren:
+Entferne aus der ersten Datei die Fähigkeit des LISTEN auf dem Port.
+
+
+UND:
+Es geht auch nur auf Port 80 und mit verschiedenen ServerAlias'en - aber ich bevorzuge aus mehreren Gründen dieses Modell, weshalb diese Config von mir als Antwort eingereicht ist.
