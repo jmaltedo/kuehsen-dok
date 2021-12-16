@@ -1086,6 +1086,12 @@ p {
   top: -15px;
 }
 
+@media(max-width: 769px) {
+  #indexcontainer h1{
+    top: 0px;
+  }
+}
+
 #indexheaderpic {
   position: relative;
   top: 15px;
