@@ -91,6 +91,14 @@ section {
   padding-bottom: 3rem;
 }
 
+
+figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 @media (max-width: 1366px) {
   section {
     padding-top: 2rem;
@@ -202,43 +210,60 @@ section {
 /* === ARTIKEL === */
 
 
-.article {
-  width: 80%;
+.article .row {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
 }
 
 .article p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .article figure {
-  margin-right: 0;
-  padding: 0;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .article figure > img {
   max-width: 100%;
+  margin-bottom: 3px;
+}
+
+.article .headline .col-6 {
+  padding-bottom: 0;
+}
+
+.article .headline h1{
+  margin: 0;
 }
 
 @media (max-width: 1366px) {
-  .article {
-    width: 90%;
+  .article .row {
+    width: 80%;
   }
 }
 
 @media (max-width: 1024px) {
-  .article {
+  .article .row {
     width: 100%;
   }
 }
 
-.figure_type_x {
-  float: right;
-  width: 40%;
-  height: auto;
+/* @media (max-width: 1366px) {
+  .article .row {
+    width: 80%;
+  }
 }
+@media (max-width: 1024px) {
+  .article .row {
+    width: 100%;
+  }
+} */
 
 /* === NAVIGATIONSLEISTE === */
 
@@ -1054,3 +1079,31 @@ p {
   }
 
 } */
+/* === INDEX === */
+
+#indexcontainer h1{
+  position: relative;
+  top: -15px;
+}
+
+#indexheaderpic {
+  position: relative;
+  top: 15px;
+  height:70px;
+}
+
+/* === KÜHSEN ERSCHEINT === */
+
+#moorleiche_artikel {
+  background-color: #3D3F45;
+  color: #fff;
+}
+
+#moorleiche_artikel figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#moorleiche_artikel figure img {
+  max-width: 100%;
+}
