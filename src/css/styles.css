@@ -1094,8 +1094,9 @@ p {
 
 #indexheaderpic {
   position: relative;
-  top: 15px;
-  height:70px;
+  top: 5px;
+  left: 3px;
+  height:50px;
 }
 
 /* === KÜHSEN ERSCHEINT === */
