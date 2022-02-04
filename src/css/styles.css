@@ -390,9 +390,11 @@ figure {
   margin: 0;
   position: absolute;
   top: 30%;
-  left: 20%;
   list-style: none;
   font-size: 1.2rem;
+  width: 100%;
+  padding: 0;
+  text-align: center;
 }
 
 #mobile-nav li {

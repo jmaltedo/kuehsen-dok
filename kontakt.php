@@ -34,7 +34,7 @@
 					<li><a href="index.html">Startseite</a></li>
 					<li><a href="aktuelles.html">Aktuelles</a></li>
 					<li><a href="historisches.html">Historisches</a></li>
-					<li><a href="kontakt.php">Kontakt</a></li>
+					<li class="active"><a href="kontakt.php">Kontakt</a></li>
 					<li><a href="impressum.html">Impressum</a></li>
 				</ul>
 			</div>
