@@ -44,7 +44,7 @@
 					<div class="col-6">
 
 						<a href="index.html" class="logo-link">
-							<img src="src/img/kuehsenlogo.png" alt="Kühsener Wappen">
+							<img src="/kuehsen-dok/src/img/kuehsen-dok_logo_small.png" alt="Kühsener Wappen">
 						</a>
 
 						<ul id="desktop-nav">
