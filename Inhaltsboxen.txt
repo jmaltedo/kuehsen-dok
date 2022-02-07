@@ -1,0 +1,57 @@
+		<!-- INHALTSBOXEN -->
+
+		<!-- <section class="inhaltsboxen">
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<a class="inhaltsbox" href="#">
+							<img src="./src/img/kuehsen-wappen-x.jpg" alt="Kühsener Wappen">
+							<div>
+								<h2>Titel</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<a class="inhaltsbox" href="#">
+							<img src="./src/img/kuehsen-wappen-x.jpg" alt="Kühsener Wappen">
+							<div>
+								<h2>Titel</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-3">
+						<a class="inhaltsbox" href="#">
+							<img src="./src/img/kuehsen-wappen-x.jpg" alt="Kühsener Wappen">
+							<div>
+								<h2>Titel</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-3">
+						<a class="inhaltsbox" href="#">
+							<img src="./src/img/kuehsen-wappen-x.jpg" alt="Kühsener Wappen">
+							<div>
+								<h2>Titel</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-3">
+						<a class="inhaltsbox" href="#">
+							<img src="./src/img/kuehsen-wappen-x.jpg" alt="Kühsener Wappen">
+							<div>
+								<h2>Titel</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section> -->
