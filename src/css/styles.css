@@ -184,6 +184,11 @@ figure {
   font-size: 1.2rem;
 }
 
+.intro-container > .autor {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 @media (max-width: 1366px) {
   .intro-container {
     width: 90%;
