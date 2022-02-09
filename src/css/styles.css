@@ -221,6 +221,10 @@ figure {
   font-size: 1.1rem;
 }
 
+.article .row p:first-of-type {
+  margin-top: 0;
+}
+
 .article figure {
   max-width: 100%;
   display: inline-block;
