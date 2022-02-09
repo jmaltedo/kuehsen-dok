@@ -583,7 +583,7 @@ figure {
 
 .inhaltsboxen p {
   margin: 0.5rem 0;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .inhaltsboxen .col-6 > .inhaltsbox {
@@ -665,6 +665,11 @@ figure {
   }
   .inhaltsboxen .col-6 > .inhaltsbox p {
     padding-left: 0.2rem;
+    font-size: 1rem;
+  }
+  .inhaltsboxen .col-6 > .inhaltsbox h2 {
+    padding-left: 0.2rem;
+    font-size: 1.1rem;
   }
   .inhaltsboxen .col-3 > .inhaltsbox img {
     width: 60%;
