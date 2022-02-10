@@ -1135,6 +1135,6 @@ p {
 /* === SOZIALWESEN === */
 
 #armenhausUD {
-  transition-duration: 0.3s;
+  transition-duration: 1s;
   transition-timing-function: ease;
 }
