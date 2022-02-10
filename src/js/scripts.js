@@ -14,9 +14,11 @@ document.getElementById("armenhausUD").onclick = function() {
   if (document.getElementById("armenhausUD").src == "/kuehsen-dok/src/img/sozialwesen/armenhausUDsw.jpg")
   {
     document.getElementById("armenhausUD").src = "/kuehsen-dok/src/img/sozialwesen/armenhausUD.jpg";
+    return;
   }
   else if (document.getElementById("armenhausUD").src == "/kuehsen-dok/src/img/sozialwesen/armenhausUD.jpg")
   {
     document.getElementById("armenhausUD").src = "/kuehsen-dok/src/img/sozialwesen/armenhausUDsw.jpg";
+    return;
   }
 }
