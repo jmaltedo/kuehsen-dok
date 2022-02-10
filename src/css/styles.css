@@ -1131,3 +1131,10 @@ p {
 #moorleiche_artikel figure img {
   max-width: 100%;
 }
+
+/* === SOZIALWESEN === */
+
+#armenhausUD {
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
