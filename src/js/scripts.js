@@ -15,7 +15,7 @@ document.getElementById("armenhausUD").onclick = function() {
   {
     document.getElementById("armenhausUD").src = "/kuehsen-dok/src/img/sozialwesen/armenhausUD.jpg";
   }
-  else
+  else if
   {
     document.getElementById("armenhausUD").src = "/kuehsen-dok/src/img/sozialwesen/armenhausUDsw.jpg";
   }
