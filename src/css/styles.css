@@ -263,6 +263,22 @@ figure {
   }
 }
 
+.article p > a:link {
+  text-decoration: none;
+}
+
+.article p > a:visited {
+  text-decoration: none;
+}
+
+.article p > a:hover {
+  text-decoration: underline;
+}
+
+.article p > a:active {
+  text-decoration: underline;
+}
+
 /* @media (max-width: 1366px) {
   .article .row {
     width: 80%;
