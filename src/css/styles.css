@@ -264,18 +264,22 @@ figure {
 }
 
 .article p > a:link {
-  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
 }
 
 .article p > a:visited {
-  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
 }
 
 .article p > a:hover {
+  color: #000;
   text-decoration: underline;
 }
 
 .article p > a:active {
+  color: #000;
   text-decoration: underline;
 }
 
