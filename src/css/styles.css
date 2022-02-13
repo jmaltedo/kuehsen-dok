@@ -1157,6 +1157,6 @@ p {
   max-width: 100%;
 }
 #prmaße th, #prmaße td {
-  padding: 8px;
+  padding: 8px 8px 8px 0px;
   border: none;
 }
