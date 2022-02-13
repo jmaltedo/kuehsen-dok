@@ -1155,6 +1155,7 @@ p {
 /* === HAND- UND SPANNDIENSTE === */
 #prmaße {
   max-width: 100%;
+  font-size: 1.1rem;
 }
 #prmaße th, #prmaße td {
   padding: 8px 8px 8px 0px;
