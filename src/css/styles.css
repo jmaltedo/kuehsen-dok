@@ -1151,3 +1151,12 @@ p {
 #moorleiche_artikel figure img {
   max-width: 100%;
 }
+
+/* === HAND- UND SPANNDIENSTE === */
+#prmaße {
+  max-width: 100%;
+}
+#prmaße th, #prmaße td {
+  padding: 8px;
+  border: none;
+}
