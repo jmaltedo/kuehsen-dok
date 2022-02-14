@@ -1164,18 +1164,13 @@ p {
 
 /* === ARMENHAUS === */
 
-#cf {
-  position:relative;
-}
-#cf img {
-  position:absolute;
-  left: 0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+#armenhausUD {
+  filter: grayscale(100);
+  transition-property: grayscale;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
-#cf img.transparent {
-opacity:0;
+#armenhausUD:active {
+  filter: grayscale(0);
 }

@@ -9,7 +9,7 @@ document.getElementById("mobile-nav-close-button").onclick = function() {
 }
 
 // Armenhaus Bildwechsel
-// 
+//
 // document.getElementById("armenhausUD").onclick = function() {
 //   if (document.getElementById("armenhausUD").src.match("/kuehsen-dok/src/img/sozialwesen/armenhausUDsw.jpg"))
 //   {
@@ -22,9 +22,3 @@ document.getElementById("mobile-nav-close-button").onclick = function() {
 //     return;
 //   }
 // }
-
-$(document).ready(function() {
-  $("#cf_onclick").click(function() {
-  $("#cf2 img.top").toggleClass("transparent");
-});
-});
