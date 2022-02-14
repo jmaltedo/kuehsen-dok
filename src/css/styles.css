@@ -1165,12 +1165,16 @@ p {
 /* === ARMENHAUS === */
 
 #armenhausUD {
-  filter: grayscale(100);
-  transition-property: grayscale;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition-property: all;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
 }
 
 #armenhausUD:active {
-  filter: grayscale(0);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
