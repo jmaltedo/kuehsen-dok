@@ -701,6 +701,9 @@ figure {
     padding-left: 1rem;
     width: 39%;
   }
+  .inhaltsboxen .col-3 > .inhaltsbox h2 {
+    margin: 0 0 0.5rem 0;
+  }
   .inhaltsboxen .col-3 > .inhaltsbox p {
     text-overflow: ellipsis;
     overflow: auto;
@@ -718,6 +721,9 @@ figure {
     display: block;
     padding-left: 0;
     width: 100%;
+  }
+  .inhaltsboxen .col-3 > .inhaltsbox h2 {
+    margin: 0.5rem 0;
   }
   .inhaltsboxen .col-3 > .inhaltsbox p {
     text-overflow: ellipsis;
