@@ -247,10 +247,6 @@ figure {
   padding-bottom: 0;
 }
 
-.article .headline .col-6:not(:first-child) {
-  margin-top: 1rem;
-}
-
 .article .headline h1{
   margin: 0;
 }
