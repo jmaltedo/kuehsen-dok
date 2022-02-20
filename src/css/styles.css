@@ -248,7 +248,7 @@ figure {
 }
 
 .article .headline .col-6:not(:first-child) {
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .article .headline h1{
