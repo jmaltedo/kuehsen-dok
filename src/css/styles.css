@@ -1154,6 +1154,10 @@ p {
   height:50px;
 }
 
+#rickert_sign {
+  max-width: 100%;
+}
+
 /* === KÜHSEN ERSCHEINT === */
 
 #moorleiche_artikel {
