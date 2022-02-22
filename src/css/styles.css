@@ -115,8 +115,8 @@ figure {
 
 @media (max-width: 768px) {
   section {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
   }
 }
 
@@ -889,10 +889,6 @@ figure {
   position: relative;
 }
 
-/* #tag_pos-a {
-
-} */
-
 #tag_pos-b {
   display: none;
 }
@@ -928,6 +924,18 @@ figure {
 
 #footer-nav a:hover{
   color: #f0f0f0;
+}
+
+@media (max-width: 1366px) {
+  #footer .row:nth-of-type(1) .col-6 div{
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #footer .row:nth-of-type(1) .col-6 div{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
