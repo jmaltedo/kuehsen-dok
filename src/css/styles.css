@@ -211,6 +211,9 @@ figure {
 .trennstrich{
   border-bottom: 1px solid black;
 }
+.trennstrich_w {
+  border-bottom: 1px solid white;
+}
 
 /* === ARTIKEL === */
 
@@ -872,15 +875,58 @@ figure {
   width: 100%;
 }
 
+#footer .row:nth-of-type(1) .col-6 div{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+#footer .row:nth-of-type(2) {
+  padding-top: 2rem;
+  position: relative;
+}
+
+/* #tag_pos-a {
+
+} */
+
+#tag_pos-b {
+  display: none;
+}
+
+#footer-nav {
+  list-style: none;
+  float: right;
+  margin:0;
+  padding:0;
+  text-align: center;
+}
+
+
+#wappenkreis_w {
+  height: 50px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: 50%;
+  right: 50%;
+  bottom: -20px;
+  position: absolute; */
+}
+
 .sticky {
   position: fixed;
   left: 0;
   bottom: 0;
 }
 
-#footer-nav {
+#footer-nav li {
   display: inline-block;
-  float: right;
+  padding: 0 0.5rem;
 }
 
 #footer-nav a {
@@ -903,9 +949,20 @@ figure {
   color: #f0f0f0;
 }
 
-@media (max-width: 565px) {
-  #footer span {
+@media (max-width: 768px) {
+  #footer-nav {
+    float: none;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  #tag_pos-a {
     display: none;
+  }
+
+  #tag_pos-b {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 
