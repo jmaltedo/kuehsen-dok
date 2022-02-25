@@ -1227,6 +1227,21 @@ p {
   max-width: 100%;
 }
 
+/* === DATENSCHUTZ === */
+
+#data_s {
+  display: none;
+}
+
+ @media(max-width: 425px) {
+   #data_l {
+     display: none;
+   }
+   #data_s {
+     display: block;
+   }
+ }
+
 /* === KÜHSEN ERSCHEINT === */
 
 #moorleiche_artikel {
