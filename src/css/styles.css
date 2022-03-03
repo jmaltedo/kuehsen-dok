@@ -53,6 +53,12 @@
        url('../fonts/montserrat-v15-latin-700italic.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
+/* SpecialElite */
+@font-face {
+  font-family: 'SpecialElite';
+  src: url('../fonts/SpecialElite-Regular.ttf');
+}
+
 /* === FARBEN === */
 /*
 Blau: #1F4E8C
@@ -300,7 +306,7 @@ figure {
 
 .er .er_txt {
   padding: 0.5rem;
-  font-family: "Lucida Sans Typewriter";
+  font-family: "SpecialElite";
   background:
     linear-gradient(to right, black 1px, transparent 1px) 0 0,
     linear-gradient(to right, black 1px, transparent 1px) 0 100%,
