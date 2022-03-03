@@ -298,6 +298,22 @@ figure {
   text-decoration: underline;
 }
 
+.er .er_txt {
+  padding: 0.5rem;
+  font-family: "Lucida Sans Typewriter";
+  background:
+    linear-gradient(to right, black 1px, transparent 1px) 0 0,
+    linear-gradient(to right, black 1px, transparent 1px) 0 100%,
+    linear-gradient(to left, black 1px, transparent 1px) 100% 0,
+    linear-gradient(to left, black 1px, transparent 1px) 100% 100%,
+    linear-gradient(to bottom, black 1px, transparent 1px) 0 0,
+    linear-gradient(to bottom, black 1px, transparent 1px) 100% 0,
+    linear-gradient(to top, black 1px, transparent 1px) 0 100%,
+    linear-gradient(to top, black 1px, transparent 1px) 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
 /* @media (max-width: 1366px) {
   .article .row {
     width: 80%;
@@ -1283,4 +1299,27 @@ p {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+
+
+/* .er_txt {
+  transition: all 1s linear;
+  display: block;
+}
+
+.er_img {
+  transition: all 1s linear;
+} */
+
+.er {
+  transition: all 1s linear;
+}
+
+.hidden {
+  display: none;
+}
+
+.visuallyhidden {
+  opacity: 0;
 }

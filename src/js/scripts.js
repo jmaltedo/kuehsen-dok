@@ -8,6 +8,19 @@ document.getElementById("mobile-nav-close-button").onclick = function() {
   document.getElementById("mobile-nav").style.right = "-320px";
 }
 
+function er(e) {
+  let c = e.children;
+  console.log(c);
+  Array.from(c).forEach(element => {
+    if (element.classList.contains("hidden")) {
+      element.classList.remove("hidden");
+    }
+    else {
+      element.classList.add("hidden");
+    }
+  });
+}
+
 // Armenhaus Bildwechsel
 //
 // document.getElementById("armenhausUD").onclick = function() {
