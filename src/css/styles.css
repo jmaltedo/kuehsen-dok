@@ -53,10 +53,10 @@
        url('../fonts/montserrat-v15-latin-700italic.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-/* SpecialElite */
+/* ToxTypewriter */
 @font-face {
-  font-family: 'SpecialElite';
-  src: url('../fonts/SpecialElite-Regular.ttf');
+  font-family: 'ToxTypewriter';
+  src: url('../fonts/ToxTypewriter.ttf');
 }
 
 /* === FARBEN === */
@@ -306,7 +306,7 @@ figure {
 
 .er .er_txt {
   padding: 0.5rem;
-  font-family: "SpecialElite";
+  font-family: "ToxTypewriter";
   background:
     linear-gradient(to right, black 1px, transparent 1px) 0 0,
     linear-gradient(to right, black 1px, transparent 1px) 0 100%,
