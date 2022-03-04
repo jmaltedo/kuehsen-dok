@@ -345,7 +345,8 @@ figure {
 }
 
 .er_aut {
-  font-family: "Montserrat";
+  font-family: "PlayfairDisplay";
+  font-style: italic;
   width: 100%;
   text-align: center;
   position: absolute;
