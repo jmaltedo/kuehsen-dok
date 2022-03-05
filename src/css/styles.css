@@ -354,6 +354,23 @@ figure {
   z-index: -1;
 }
 
+.ln_txt {
+  position: relative;
+  font-family: "PlayfairDisplay";
+}
+
+.ln_txt h1 {
+
+}
+
+.ln_txt_1 {
+
+}
+
+.ln_txt_2 {
+
+}
+
 /* @media (max-width: 1366px) {
   .article .row {
     width: 80%;
