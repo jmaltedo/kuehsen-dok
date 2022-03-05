@@ -360,15 +360,15 @@ figure {
 }
 
 .ln_txt h1 {
-
+  weight: 900;
 }
 
 .ln_txt_1 {
-
+  weight: 570;
 }
 
 .ln_txt_2 {
-
+  weight: 400;
 }
 
 /* @media (max-width: 1366px) {
