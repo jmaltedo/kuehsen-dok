@@ -288,6 +288,14 @@ figure {
   margin: 0;
 }
 
+#press {
+  color: white;
+  background-color: #3D3F45;
+  font-family: "PlayfairDisplay";
+  font-style: italic;
+  font-weight: 900;
+}
+
 @media (max-width: 1366px) {
   .article .row {
     width: 80%;
