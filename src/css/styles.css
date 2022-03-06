@@ -420,7 +420,7 @@ figure {
 #er_ln_date{
   width: 100px;
   height: auto;
-  right: 0;
+  align: right;
 }
 
 /* === NAVIGATIONSLEISTE === */
