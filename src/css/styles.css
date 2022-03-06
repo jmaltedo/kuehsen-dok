@@ -399,6 +399,14 @@ figure {
 
 .ln_txt h1 {
   font-weight: 900;
+  font-style: italic;
+  font-size: 1.7rem;
+  text-align: center;
+}
+.ln_txt h2 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .ln_txt_1 {
