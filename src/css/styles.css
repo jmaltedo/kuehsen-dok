@@ -418,8 +418,9 @@ figure {
 }
 
 #er_ln_date{
-  width: 30px;
+  width: 100px;
   height: auto;
+  float: right;
 }
 
 /* === NAVIGATIONSLEISTE === */
