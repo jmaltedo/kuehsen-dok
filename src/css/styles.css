@@ -417,6 +417,11 @@ figure {
   font-weight: 500;
 }
 
+#er_ln_date{
+  width: 30px;
+  height: auto;
+}
+
 /* === NAVIGATIONSLEISTE === */
 
 #header-nav {
