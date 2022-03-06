@@ -400,12 +400,12 @@ figure {
 .ln_txt h1 {
   font-weight: 900;
   font-style: italic;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-align: center;
 }
 .ln_txt h2 {
   font-weight: 900;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -416,17 +416,6 @@ figure {
 .ln_txt_2 {
   font-weight: 500;
 }
-
-/* @media (max-width: 1366px) {
-  .article .row {
-    width: 80%;
-  }
-}
-@media (max-width: 1024px) {
-  .article .row {
-    width: 100%;
-  }
-} */
 
 /* === NAVIGATIONSLEISTE === */
 
