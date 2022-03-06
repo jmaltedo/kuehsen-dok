@@ -296,6 +296,18 @@ figure {
   font-weight: 900;
 }
 
+#press h1 {
+  margin-bottom: 0;
+}
+
+#press h1:nth-of-type(1) {
+  text-align: left;
+}
+
+#press h1:nth-of-type(2) {
+  text-align: right;
+}
+
 @media (max-width: 1366px) {
   .article .row {
     width: 80%;
