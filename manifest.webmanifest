@@ -2,7 +2,7 @@
     "theme_color": "#ffffff",
     "background_color": "#3d3f45",
     "display": "standalone",
-    "start_url": "/index.html",
+    "start_url": "/kuehsen-dok/index.html",
     "scope": "/",
     "name": "kuehsen-dok.de",
     "short_name": "kuehsen-dok.de",
