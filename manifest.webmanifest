@@ -1,11 +1,11 @@
 {
     "name": "kuehsen-dok.de",
     "short_name": "kuehsen-dok.de",
-    "theme_color": "#000000",
-    "background_color": "#000",
     "display": "standalone",
     "start_url": "/kuehsen-dok/index.html",
-    "scope": "/kuehsen-dok/",
+    "scope": "/",
+    "theme_color": "red",
+    "background_color": "red",
     "icons": [
         {
             "src": "/kuehsen-dok/src/manifest/icon-192x192.png",
