@@ -1,7 +1,7 @@
 {
   "name": "kuehsen-dok.de",
   "short_name": "kuehsen-dok.de",
-  "start_url": "/index.html",
+  "start_url": "/kuehsen-dok/index.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
