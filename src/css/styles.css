@@ -372,6 +372,7 @@ figure {
 
 .er_txt h1 {
   text-overflow: clip;
+  max-width: 100%;
 }
 
 .er_aut {
