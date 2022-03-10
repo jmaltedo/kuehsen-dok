@@ -4,8 +4,8 @@
   "start_url": "/kuehsen-dok/index.html",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#fff",
-  "theme_color": "#000",
+  "background_color": "#FF0000",
+  "theme_color": "#FF0000",,fdf
   "description": "Auf kuehsen-dok.de finden Sie historische Dokumente rund um Kühsen.",
   "icons": [
       {
