@@ -370,6 +370,10 @@ figure {
   background-size: 20px 20px;
 }
 
+.er_txt h1 {
+  text-overflow: clip;
+}
+
 .er_aut {
   font-family: "PlayfairDisplay";
   font-style: italic;
