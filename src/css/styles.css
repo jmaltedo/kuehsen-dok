@@ -1102,6 +1102,128 @@ figure {
   bottom: 0;
 }
 
+/* === TEST === */
+
+#wappenkreis {
+  height: 50px;
+  width: 0px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+#wappenkreis div {
+  position: absolute;
+  height: 12px;
+  width: 8px;
+  background-color: red;
+}
+#wappenkreis #wke1 {
+  left: -4px;
+}
+#wappenkreis #wke2 {
+  transform: rotate(51.43deg);
+  left: 10px;
+  top: 7px;
+}
+#wappenkreis #wke3 {
+  transform: rotate(102.86deg);
+  left: 14px;
+  top: 22px;
+}
+#wappenkreis #wke4 {
+  transform: rotate(154.29deg);
+  left: 4px;
+  top: 35px;
+}
+#wappenkreis #wke5 {
+  transform: rotate(205.71deg);
+  left: -12px;
+  top: 35px;
+}
+#wappenkreis #wke6 {
+  transform: rotate(257.14deg);
+  left: -22px;
+  top: 22px;
+}
+#wappenkreis #wke7 {
+  transform: rotate(308.57deg);
+  left: -18px;
+  top: 7px;
+}
+
+#bauernhaus {
+  height: 0;
+  width: 0;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bauernhaus div {
+  position: absolute;
+}
+
+#bauernhaus #bhe1 {
+  width: 88px;
+  height: 18px;
+  left: -44px;
+  bottom: -53px;
+  background-color: #3d3f45;
+  border-width: 0px 1px 1px 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+#bauernhaus #bhe2 {
+  width: 0;
+  height: 0;
+  left: -44px;
+  bottom: -35px;
+  border-left: 44px solid transparent;
+  border-right: 44px solid transparent;
+  border-bottom: 60px solid #3d3f45;
+}
+
+#bauernhaus #bhe3 {
+  height: 50px;
+  width: 5px;
+  background-color: #3d3f45;
+  left: -31px;
+  bottom: -36px;
+  transform: skewX(-36.26deg);
+  border: 1px solid white;
+}
+
+#bauernhaus #bhe4 {
+  height: 50px;
+  width: 5px;
+  background-color: #3d3f45;
+  left: 26px;
+  bottom: -36px;
+  transform: skewX(36.26deg);
+  border: 1px solid white;
+}
+
+#bauernhaus #bhe5 {
+  width: 0;
+  height: 0;
+  left: -20px;
+  bottom: 4px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 27px solid white;
+}
+
+#bauernhaus #bhe6 {
+  width: 0;
+  height: 0;
+  left: -18px;
+  bottom: 5px;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 25px solid #3d3f45;
+}
+
 /* === KONTAKT-SEITE === */
 
 #kontakt-formular input, textarea {
