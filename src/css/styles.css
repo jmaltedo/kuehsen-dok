@@ -1104,10 +1104,122 @@ figure {
 
 /* === TEST === */
 
+#footer .row:nth-of-type(3) .col-6 {
+  margin-bottom: 150px;
+}
+
+#kw_background #bgc {
+  position: absolute;
+  left:0;
+  width: 100%;
+  height: 150px;
+  background-color: #036600;
+}
+#kw_background #stecknitz #se1 {
+  position: absolute;
+  width: 100%;
+  height: 24px;
+  background-color: white;
+  top: 100px;
+}
+#kw_background #stecknitz #se2 {
+  position: absolute;
+  overflow: hidden;
+  width: 102px;
+  height: 100%;
+  background-color: #036600;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+#kw_background #stecknitz #se2 #se2e1 {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 100px;
+  background-color: red;
+  overflow: hidden;
+}
+#kw_background #stecknitz #se2 #se2e2 {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 100px;
+  left: 34px;
+  background-color: red;
+  overflow: hidden;
+}
+#kw_background #stecknitz #se2 #se2e3 {
+  position: absolute;
+  width: 34px;
+  height: 40px;
+  top: 100px;
+  right: 0;
+  background-color: red;
+  overflow: hidden;
+}
+
+#kw_background #stecknitz #se2 #se2e1 #se2e1k1 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: -50px;
+  background-color: white;
+  border-radius: 50%;
+}
+#kw_background #stecknitz #se2 #se2e1 #se2e1k2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: -50px;
+  top: 24px;
+  background-color: red;
+  border-radius: 50%;
+}
+#kw_background #stecknitz #se2 #se2e2 #se2e2k1 {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  left: -13px;
+  top: -7px;
+  background-color: white;
+  border-radius: 50%;
+}
+#kw_background #stecknitz #se2 #se2e2 #se2e2k2 {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  left: -13px;
+  top: -31px;
+  background-color: red;
+  border-radius: 50%;
+}
+#kw_background #stecknitz #se2 #se2e3 #se2e3k1 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  right: -50px;
+  background-color: white;
+  border-radius: 50%;
+}
+#kw_background #stecknitz #se2 #se2e3 #se2e3k2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  right: -50px;
+  top: 24px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+
 #wappenkreis {
-  height: 50px;
+  height: 0px;
   width: 0px;
   position: relative;
+  top: 35px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1155,6 +1267,7 @@ figure {
   height: 0;
   width: 0;
   position: relative;
+  top: 35px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1222,6 +1335,10 @@ figure {
   border-left: 18px solid transparent;
   border-right: 18px solid transparent;
   border-bottom: 25px solid #3d3f45;
+}
+
+#wappenkreis:hover {
+
 }
 
 /* === KONTAKT-SEITE === */
