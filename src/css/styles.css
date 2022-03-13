@@ -1139,7 +1139,7 @@ figure {
   width: 34px;
   height: 40px;
   top: 100px;
-  background-color: red;
+  background-color: #036600;
   overflow: hidden;
 }
 #kw_background #stecknitz #se2 #se2e1 {
@@ -1164,7 +1164,7 @@ figure {
 }
 #kw_background #stecknitz #se2 #se2e1 #se2e1k2 {
   top: 24px;
-  background-color: red;
+  background-color: #036600;
 }
 #kw_background #stecknitz #se2 #se2e2 > div {
   position: absolute;
@@ -1179,7 +1179,7 @@ figure {
 }
 #kw_background #stecknitz #se2 #se2e2 #se2e2k2 {
   top: -32px;
-  background-color: red;
+  background-color: #036600;
 }
 #kw_background #stecknitz #se2 #se2e3 > div {
   position: absolute;
@@ -1193,7 +1193,7 @@ figure {
 }
 #kw_background #stecknitz #se2 #se2e3 #se2e3k2 {
   top: 24px;
-  background-color: red;
+  background-color: #036600;
 }
 
 
