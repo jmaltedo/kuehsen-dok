@@ -1105,16 +1105,46 @@ figure {
 /* === TEST === */
 
 #footer .row:nth-of-type(3) .col-6 {
-  margin-bottom: 150px;
+  margin-bottom: 135px;
+  padding-bottom: 0;
 }
 
 #kw_background {
   position: absolute;
+  overflow: hidden;
   left:0;
-  width: 100%;
-  height: 150px;
+  width: 0px;
+  height: 135px;
   background-color: #036600;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
+.kwb_animation{
+  animation: kwb_animation;
+  animation-duration: 6s;
+}
+@keyframes kwb_animation {
+  0% {
+    width: 0px;
+  }
+  45% {
+    width: 0%;
+  }
+  55% {
+    width: 100%;
+  }
+  93% {
+    width: 100%;
+    opacity: 100%
+  }
+  100% {
+    width: 100%;
+    opacity: 0%;
+  }
+}
+
 #kw_background #stecknitz #se1 {
   position: absolute;
   width: 100%;
@@ -1132,7 +1162,6 @@ figure {
   margin-right: auto;
   left: 0;
   right: 0;
-  text-align: center;
 }
 #kw_background #stecknitz #se2 > div{
   position: absolute;
@@ -1199,7 +1228,7 @@ figure {
 #kw_background #grenz {
   position: absolute;
   width: 100%;
-  height: 150px;
+  height: 135px;
 }
 
 #kw_background #grenz > div{
@@ -1250,7 +1279,8 @@ figure {
   position: absolute;
   height: 12px;
   width: 8px;
-  background-color: red;
+  background-color: white;
+  transition: 0.5s;
 }
 #wappenkreis #wke1 {
   left: -4px;
@@ -1293,12 +1323,29 @@ figure {
   top: 35px;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0%;
 }
-
+.bh_visibility {
+  animation: bh_visibility;
+  animation-duration: 6s;
+}
+@keyframes bh_visibility {
+  0% {
+    opacity: 0%;
+  }
+  45% {
+    opacity: 100%;
+  }
+  93% {
+    opacity: 100%
+  }
+  100% {
+    opacity: 0%;
+  }
+}
 #bauernhaus div {
   position: absolute;
 }
-
 #bauernhaus #bhe1 {
   width: 88px;
   height: 18px;
@@ -1309,7 +1356,28 @@ figure {
   border-color: white;
   border-style: solid;
 }
-
+.bhe1_color {
+  animation: bh1_color;
+  animation-duration: 6s;
+}
+@keyframes bh1_color {
+  0% {
+    background-color: #3d3f45;
+    border-color: #white;
+  }
+  45% {
+    background-color: #3d3f45;
+    border-color: white;
+  }
+  55% {
+    background-color: white;
+    border-color: black;
+  }
+  100% {
+    background-color: white;
+    border-color: black;
+  }
+}
 #bauernhaus #bhe2 {
   width: 0;
   height: 0;
@@ -1319,7 +1387,24 @@ figure {
   border-right: 44px solid transparent;
   border-bottom: 60px solid #3d3f45;
 }
-
+.bhe2_color {
+  animation: bh2_color;
+  animation-duration: 6s;
+}
+@keyframes bh2_color {
+  0% {
+    border-bottom: 60px solid #3d3f45;
+  }
+  45% {
+    border-bottom: 60px solid #3d3f45;
+  }
+  55% {
+    border-bottom: 60px solid white;
+  }
+  100% {
+    border-bottom: 60px solid white;
+  }
+}
 #bauernhaus #bhe3 {
   height: 50px;
   width: 5px;
@@ -1329,7 +1414,28 @@ figure {
   transform: skewX(-36.26deg);
   border: 1px solid white;
 }
-
+.bhe3_color {
+  animation: bh3_color;
+  animation-duration: 6s;
+}
+@keyframes bh3_color {
+  0% {
+    background-color: #3d3f45;
+    border: 1px solid white;
+  }
+  45% {
+    background-color: #3d3f45;
+    border: 1px solid white;
+  }
+  55% {
+    background-color: white;
+    border: 1px solid black;
+  }
+  100% {
+    background-color: white;
+    border: 1px solid black;
+  }
+}
 #bauernhaus #bhe4 {
   height: 50px;
   width: 5px;
@@ -1339,7 +1445,28 @@ figure {
   transform: skewX(36.26deg);
   border: 1px solid white;
 }
-
+.bhe4_color {
+  animation: bh4_color;
+  animation-duration: 6s;
+}
+@keyframes bh4_color {
+  0% {
+    background-color: #3d3f45;
+    border: 1px solid white;
+  }
+  45% {
+    background-color: #3d3f45;
+    border: 1px solid white;
+  }
+  55% {
+    background-color: white;
+    border: 1px solid black;
+  }
+  100% {
+    background-color: white;
+    border: 1px solid black;
+  }
+}
 #bauernhaus #bhe5 {
   width: 0;
   height: 0;
@@ -1349,7 +1476,24 @@ figure {
   border-right: 20px solid transparent;
   border-bottom: 27px solid white;
 }
-
+.bhe5_color {
+  animation: bh5_color;
+  animation-duration: 6s;
+}
+@keyframes bh5_color {
+  0% {
+    border-bottom: 27px solid white;
+  }
+  45% {
+    border-bottom: 27px solid white;
+  }
+  55% {
+    border-bottom: 27px solid black;
+  }
+  100% {
+    border-bottom: 27px solid black;
+  }
+}
 #bauernhaus #bhe6 {
   width: 0;
   height: 0;
@@ -1359,10 +1503,26 @@ figure {
   border-right: 18px solid transparent;
   border-bottom: 25px solid #3d3f45;
 }
-
-#wappenkreis:hover {
-
+.bhe6_color {
+  animation: bh6_color;
+  animation-duration: 6s;
 }
+@keyframes bh6_color {
+  0% {
+    border-bottom: 25px solid #3d3f45;
+  }
+  45% {
+    border-bottom: 25px solid #3d3f45;
+  }
+  55% {
+    border-bottom: 25px solid white;
+  }
+  100% {
+    border-bottom: 25px solid white;
+  }
+}
+
+
 
 /* === KONTAKT-SEITE === */
 

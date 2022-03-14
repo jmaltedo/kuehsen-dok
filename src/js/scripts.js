@@ -20,6 +20,39 @@ function er(e) {
     }
   });
 }
+var x = true;
+window.onscroll = function() {
+  if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
+      document.getElementById("kw_background").classList.add("kwb_animation");
+      document.getElementById("bauernhaus").classList.add("bh_visibility");
+      for(let i = 1; i <= 6; i++) {
+        document.getElementById("bhe" + i).classList.add("bhe" + i + "_color");
+      }
+      if(x==true) {
+        wkcolor();
+        wkcolorreset()
+        x = false;
+      }
+    }
+  }
+function wkcolor(){
+  var i = 1;
+  var iv = setInterval(function() {
+    document.getElementById("wke" + i).style.backgroundColor = "red";
+    i++;
+    if(i==8) {
+      clearInterval(iv);
+    }
+  },300);
+}
+function wkcolorreset(){
+  setTimeout(function() {
+    for(let i = 1; i <= 7; i++) {
+      document.getElementById("wke"+i).style.backgroundColor = "white";
+    }
+  }, 5500);
+}
+
 
 // Armenhaus Bildwechsel
 //
