@@ -1406,10 +1406,10 @@ figure {
   }
 }
 #bauernhaus #bhe3 {
-  height: 50px;
+  height: 41px;
   width: 5px;
   background-color: #3d3f45;
-  left: -31px;
+  left: -34px;
   bottom: -36px;
   transform: skewX(-36.26deg);
   border: 1px solid white;
@@ -1437,10 +1437,10 @@ figure {
   }
 }
 #bauernhaus #bhe4 {
-  height: 50px;
+  height: 41px;
   width: 5px;
   background-color: #3d3f45;
-  left: 26px;
+  left: 29px;
   bottom: -36px;
   transform: skewX(36.26deg);
   border: 1px solid white;
