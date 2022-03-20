@@ -432,6 +432,13 @@ figure {
   bottom: 10px;
 }
 
+#quelle [class*="col-"]{
+  padding-top: 0;
+}
+#quelle p {
+  margin-top: 0;
+}
+
 /* === NAVIGATIONSLEISTE === */
 
 #header-nav {
