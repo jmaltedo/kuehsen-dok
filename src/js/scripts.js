@@ -53,6 +53,15 @@ function wkcolorreset(){
   }, 5500);
 }
 
+function flip(p){
+  if (p.classList.contains("flip")) {
+    p.classList.remove("flip");
+  }
+  else {
+    p.classList.add("flip");
+  }
+}
+
 
 // Armenhaus Bildwechsel
 //
