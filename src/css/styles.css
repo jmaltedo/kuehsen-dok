@@ -1250,13 +1250,13 @@ figure {
 #kw_background #grenz #ge2 {
   width: 50%;
   height: 5px;
-  top:115px;
+  top:114px;
   right: 0;
   background-color: red;
 }
 #kw_background #grenz #ge3 {
-  height: 10px;
-  width: 8px;
+  height: 12px;
+  width: 7px;
   top: 110px;
   margin-left: auto;
   margin-right: auto;
@@ -1267,9 +1267,9 @@ figure {
 #kw_background #grenz #ge3 #ge3v {
   position: absolute;
   height: 5px;
-  width: 8px;
-  top: 2.5px;
-  transform: skewY(31.5deg);
+  width: 7px;
+  top: 2px;
+  transform: skewY(30deg);
   background-color: red;
 }
 
