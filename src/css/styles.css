@@ -1783,6 +1783,12 @@ p {
   padding-bottom: 0.5rem;
 }
 
+/* === ABOUT === */
+
+.vorstellung p {
+  text-align: center;
+}
+
 /* === DATENSCHUTZ === */
 
 #data_s {
