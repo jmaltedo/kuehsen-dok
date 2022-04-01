@@ -1891,3 +1891,12 @@ p {
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+
+/* TEST */
+
+.visuals {
+  transition: 0.5s;
+}
+.visuals:hover {
+  filter: contrast(1.5);
+}
