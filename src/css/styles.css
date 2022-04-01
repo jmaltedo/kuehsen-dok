@@ -1783,6 +1783,12 @@ p {
   padding-bottom: 0.5rem;
 }
 
+/* === HISTORISCHES === */
+
+#aktualisierung {
+  text-align: center;
+}
+
 /* === ABOUT === */
 
 .vorstellung p {
