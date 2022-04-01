@@ -1895,8 +1895,11 @@ p {
 /* TEST */
 
 .visuals {
-  transition: 0.5s;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  filter: contrast(1);
 }
 .visuals:hover {
-  filter: contrast(1.5);
+  filter: contrast(1.2);
 }
