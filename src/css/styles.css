@@ -1835,10 +1835,12 @@ p {
 #flurnamen_table {
   overflow-x:auto;
   text-align: start;
-  display: block;
+  padding-bottom: 1rem;
+}
+
+#flurnamen_table table {
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1rem;
 }
 
 /* === HAND- UND SPANNDIENSTE === */
