@@ -389,6 +389,7 @@ figure {
 .function_hint {
   position: relative;
   margin-bottom: 2rem;
+  min-height: 80px;
 }
 .hint_finger {
   position: absolute;
