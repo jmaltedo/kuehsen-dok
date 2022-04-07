@@ -350,11 +350,12 @@ figure {
   display: none;
 }
 
-.er_txt {
-  position: relative;
+.er {
+  cursor: crosshair;
 }
 
 .er .er_txt {
+  position: relative;
   padding: 0.5rem;
   font-family: "ToxTypewriter";
   background:
@@ -383,6 +384,31 @@ figure {
   position: absolute;
   bottom: -0.5rem;
   z-index: -1;
+}
+
+.function_hint {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.hint_finger {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  animation: finger_rotation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-right: 10px;
+}
+@keyframes finger_rotation {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(60deg);}
+  100% {transform: rotate(0deg);}
+}
+.hint_txt {
+  vertical-align: middle;
+  margin-left: 90px;
+  text-align: left;
 }
 
 .ln_txt {
@@ -1861,6 +1887,7 @@ p {
   width: 100%;
   padding-bottom: 73.5%;
   perspective: 2500px; /* Remove this if you don't want the 3D effect */
+  cursor: crosshair;
 }
 .flip-card img{
   max-width: 100%;
