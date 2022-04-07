@@ -1802,9 +1802,6 @@ p {
   height:50px;
 }
 
-#index_rickert {
-}
-
 #rickert_sign {
   max-width: 100%;
   display: block;
@@ -1842,19 +1839,6 @@ p {
 
 /* === KÜHSEN ERSCHEINT === */
 
-#moorleiche_artikel {
-  background-color: #3D3F45;
-  color: #fff;
-}
-
-#moorleiche_artikel figure {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#moorleiche_artikel figure img {
-  max-width: 100%;
-}
 
 
 /* === GEOGRAPHIE === */
