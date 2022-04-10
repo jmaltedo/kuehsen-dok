@@ -86,27 +86,27 @@
 				</div>
 
 
-				<form id="kontakt-formular" action="kontakt.php" method="post">
+				<form id="kontakt-formular" action="./src/php/contact.php" method="post">
 					<div class="row">
 						<div class="col-3">
 							<label for="vorname" class="screenreader">Vorname:</label>
-							<input id="vorname" type="text" name="vorname" placeholder="Vorname">
+							<input id="vorname" type="text" name="vorname" placeholder="Vorname" required>
 						</div>
 						<div class="col-3">
 							<label for="nachname" class="screenreader">Nachname:</label>
-							<input id="nachname" type="text" name="nachname" placeholder="Nachname">
+							<input id="nachname" type="text" name="nachname" placeholder="Nachname" required>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-6">
 							<label for="email" class="screenreader">E-Mail:</label>
-							<input id="email" type="email" name="email" placeholder="E-Mail">
+							<input id="email" type="email" name="email" placeholder="E-Mail" required>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-6">
 							<label for="nachricht" class="screenreader">Nachricht:</label>
-							<textarea id="nachricht" name="nachricht" placeholder="Nachricht"></textarea>
+							<textarea id="nachricht" name="nachricht" placeholder="Nachricht" required></textarea>
 						</div>
 					</div>
 					<div class="row">
@@ -118,8 +118,6 @@
 				</form>
 			</div>
 		</section>
-
-		<?php include './src/php/cform.php' ?>
 
 		<!-- FOOTER -->
 
