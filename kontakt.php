@@ -86,7 +86,7 @@
 				</div>
 
 
-				<form id="kontakt-formular" action="./src/php/contact.php" method="post">
+				<form id="kontakt-formular" action="kontakt.php" method="post">
 					<div class="row">
 						<div class="col-3">
 							<label for="vorname" class="screenreader">Vorname:</label>
@@ -112,8 +112,10 @@
 					<div class="row">
 						<div class="col-6">
 							<button class="btn-typ-3" type="submit" name="absenden-button">Senden</button>
-							<div id="status">Senden erfolgreich</div>
 						</div>
+					</div>
+					<div class="row">
+						<div class="col-6"><<?php include "./src/php/contact.php" ?></div>
 					</div>
 				</form>
 			</div>

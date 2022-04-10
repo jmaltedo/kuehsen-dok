@@ -1594,12 +1594,6 @@ figure {
   margin-bottom: 4rem;
 }
 
-#status {
-  padding-top: 1rem;
-  font-style: italic;
-  display: none;
-}
-
 @media (max-width: 1366px) {
   #kontakt-formular {
     width: 90%;
