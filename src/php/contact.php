@@ -33,7 +33,7 @@ if($_POST) {
 
   $recipient = "info@kuehsen-dok.de";
 
-  $email_title = "Neue Nachricht von ".$vorname.".".$nachname.".";
+  $email_title = "Neue Nachricht von ".$vorname." ".$nachname.".";
 
   $email_body .= "</div>";
 
@@ -46,8 +46,5 @@ if($_POST) {
   } else {
     echo '<p>Fehler beim Senden.</p>';
   }
-
-} else {
-  echo '<p>Error</p>';
 }
 ?>
