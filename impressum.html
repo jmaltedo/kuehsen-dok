@@ -11,7 +11,7 @@
 		<link rel="apple-touch-icon" sizes="180x180" href="/kuehsen-dok/src/favicons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/kuehsen-dok/src/favicons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/kuehsen-dok/src/favicons/favicon-16x16.png">
-		<link rel="mask-icon" href="/kuehsen-dok/src/favicons/safari-pinned-tab.svg" color="#3d3f45">
+		<link rel="mask-icon" href="/kuehsen-dok/src/favicons/safari-pinned-tab.svg" color="#a62c21">
 		<link rel="shortcut icon" href="/kuehsen-dok/src/favicons/favicon.ico">
 		<meta name="msapplication-TileColor" content="#a62c21">
 		<meta name="msapplication-config" content="/kuehsen-dok/src/favicons/browserconfig.xml">

@@ -37,7 +37,7 @@ if($_POST) {
     </div>";
   }
 
-  $recipient = "dohrendorfjm@aol.de";
+  $recipient = "info@kuehsen-dok.de";
 
   $email_title = "Neue Nachricht von".$vorname.$nachname.".";
 
