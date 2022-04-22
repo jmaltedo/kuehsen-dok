@@ -80,7 +80,7 @@
 					<header class="intro-container trennstrich">
 						<h1>Kontakt</h1>
 						<p>
-							Bei Fragen und Anregungen freuen wir uns über Ihre Nachricht.
+							Bei Fragen und Anregungen freuen wir uns über deine Nachricht.
 						</p>
 					</header>
 				</div>

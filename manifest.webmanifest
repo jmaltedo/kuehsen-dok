@@ -1,7 +1,7 @@
 {
   "name": "kuehsen-dok.de",
   "short_name": "kuehsen-dok.de",
-  "start_url": "/kuehsen-dok/index.html",
+  "start_url": "index.html",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,12 +9,12 @@
   "description": "Auf kuehsen-dok.de finden Sie historische Dokumente rund um die Geschichte Kühsens.",
   "icons": [
       {
-          "src": "/kuehsen-dok/src/manifest/icon-192x192.png",
+          "src": "src/manifest/icon-192x192.png",
           "sizes": "192x192",
           "type": "image/png"
       },
       {
-          "src": "/kuehsen-dok/src/manifest/icon-512x512.png",
+          "src": "src/manifest/icon-512x512.png",
           "sizes": "512x512",
           "type": "image/png"
       }

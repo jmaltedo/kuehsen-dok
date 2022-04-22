@@ -8,6 +8,8 @@ document.getElementById("mobile-nav-close-button").onclick = function() {
   document.getElementById("mobile-nav").style.right = "-320px";
 }
 
+// FUNKTION Erwin Rickert
+
 function er(e) {
   let c = e.children;
   console.log(c);
@@ -20,6 +22,9 @@ function er(e) {
     }
   });
 }
+
+// FUNKTION Wappen
+
 var x = true;
 window.onscroll = function() {
   if ((window.innerHeight + window.scrollY) >= document.body.scrollHeight) {
@@ -52,6 +57,8 @@ function wkcolorreset(){
     }
   }, 5500);
 }
+
+// FUNKTION Flip Picture
 
 function flip(p){
   if (p.classList.contains("flip")) {

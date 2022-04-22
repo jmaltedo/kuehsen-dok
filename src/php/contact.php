@@ -42,7 +42,7 @@ if($_POST) {
   .'From: ' . $email . "\r\n";
 
   if(mail($recipient, $email_title, $email_body, $headers)) {
-    echo "<p>Danke für Deine Nachricht, {$vorname}.</p>";
+    echo "<p>Danke für deine Nachricht, {$vorname}.</p>";
   } else {
     echo '<p>Fehler beim Senden.</p>';
   }
