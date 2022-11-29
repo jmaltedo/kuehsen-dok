@@ -1887,7 +1887,10 @@ p {
 
 /* === KÜHSEN ERSCHEINT === */
 
-
+#eigentuemer_table td{
+  vertical-align: top;
+  padding-top: 0.25rem;
+}
 
 /* === GEOGRAPHIE === */
 
